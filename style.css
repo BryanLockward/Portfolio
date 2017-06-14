@@ -1,0 +1,131 @@
+/*
+///FOR BIG CONTAINERS
+*/
+section{
+  overflow:scroll;
+  width:90%;
+  margin: auto;
+
+}
+header{
+  display:inline-block;
+  background-color: #F8F8F8;
+  padding:15px;
+  width:100%
+}
+main{
+  background:radial-gradient(#6F5964,#1F0F13);
+
+}
+footer{
+  text-align: center;
+  background-color: #F8F8F8;
+  padding:15px;
+}
+
+/*
+///FOR HEADING ON TOP OF PAGE
+*/
+#headname, #headtag{
+  display:inline-block;
+}
+#headtag{
+  margin-left:44%;
+}
+
+/*
+///FOR TOP PART OF MAIN
+*/
+#photome,#aboutme{
+
+  display:inline-block;
+  width:975px;
+  margin-bottom:15px;
+
+}
+#photome{
+
+  height:45%;
+  width:40%;
+  outline:5px solid lightgrey;
+  margin-left:40px;
+  margin-top:40px;
+}
+#aboutme{
+  background:linear-gradient(to right, #FDFCFD,#908F9B);
+  height:45%;
+  width:40%;
+  margin-left:5%;
+  display:inline-block;
+  vertical-align:top;
+  margin-top:40px;
+  padding-bottom:10px;
+}
+#aboutme > p, #aboutme > a{
+  padding:9px;
+}
+#amhead{
+  margin-top: 0px;
+  background:radial-gradient(#94929D,#ACACB1);
+  color: white;
+  padding:10px;
+}
+/*
+///FOR BOTTOM PART OF MAIN
+*/
+#lamode,#familycontacts,#fiveEleven{
+  display:inline-block;
+  background:linear-gradient(to right, #FDFCFD,#908F9B);
+  margin: 10px;
+  text-align: center;
+  padding-bottom:30px;
+  width:28%;
+}
+#lamode{
+  margin-left:35px;
+}
+#fiveElevenImg,#familycontactsImg,#lamodeImg{
+  height:100%;
+  width:100%;
+}
+.langicon img{
+  width:16%;
+  height:16%;
+}
+.head,.tech{
+  background:radial-gradient(#94929D,#ACACB1);
+  margin:0px;
+  padding:10px;
+  text-align: left;
+  color: white;
+}
+.tech{
+  margin-bottom:10px;
+}
+.text{
+  padding:10px;
+  text-align: left;
+}
+.botfoot{
+  display:inline;
+  background-color: #407D61;
+  width:5%;
+  padding-left:5px;
+  padding-right:5px;
+  border-radius: 5px;
+  border:1px solid black;
+  box-shadow: 2px 2px grey;
+}
+
+/*
+///FOOTER_
+*/
+#contact img{
+  height:2%;
+  width:2%;
+  display:inline;
+}
+#contact{
+  text-decoration: underline;
+  display:inline;
+}
